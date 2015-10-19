@@ -2,6 +2,8 @@ spring-boot-scala-web
 ====================
 A sample web application using spring-boot and Scala
 
+applied to gradle 2.7, scala 2.11.7, spring boot 1.3.0.
+
 
 Using gradle as the build tool:
 -------------------------------
@@ -18,6 +20,3 @@ Using sbt as the build tool:
 
 Start up the sbt console using `sbt`
 Run the Spring boot main program using `runMain mvctest.SampleWebApplication`
-
-
-

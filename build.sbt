@@ -2,15 +2,15 @@ name := "spring-boot-scala-web"
 
 version := "1.0"
 
-scalaVersion := "2.11.5"
+scalaVersion := "2.11.7"
 
 sbtVersion := "0.13.1"
 
 seq(webSettings : _*)
 
 libraryDependencies ++= Seq(
-  "org.springframework.boot" % "spring-boot-starter-web" % "1.2.3.RELEASE",
-  "org.springframework.boot" % "spring-boot-starter-data-jpa" % "1.2.3.RELEASE",
+  "org.springframework.boot" % "spring-boot-starter-web" % "1.3.0.RELEASE",
+  "org.springframework.boot" % "spring-boot-starter-data-jpa" % "1.3.0.RELEASE",
   "org.webjars" % "bootstrap" % "3.1.1",
   "org.webjars" % "jquery" % "2.1.0-2",
   "org.thymeleaf" % "thymeleaf-spring4" % "2.1.2.RELEASE",
